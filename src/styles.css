@@ -8,11 +8,18 @@ body {
     align-items: center;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: sepia(100%);
+}
+
 button {
     width: 100px;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
     background-color: grey;
     color: blanchedalmond;
     border: 0.1px solid grey;
@@ -26,6 +33,7 @@ button:hover {
 }
 
 #content {
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,6 +49,7 @@ button:hover {
     font-weight: bolder;
     color: aliceblue;
     line-height: 30px;
+    text-shadow: 0.5px 0.5px 3px black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
