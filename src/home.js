@@ -11,7 +11,7 @@ h3.innerText = "A Michelin Star Restaurant";
 
 const p = document.createElement("p");
 p.innerText =
-`Hop in the Grass is a restaurant with one Michelin star.
+`"Hop in the Grass" is a restaurant with one Michelin star.
 We serve only the finest grasshoppers from exotic ends of the earth,
 prepared in the style of traditional French cuisine.
 Indulge in the novel tastes of grasshoppers with a cosy, homey flavour.

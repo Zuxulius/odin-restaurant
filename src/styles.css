@@ -60,14 +60,26 @@ button:hover {
 .wrapper p, h1, h3{
     margin: 20px;
     text-align: center;
-    font-weight: bolder;
-    color: aliceblue;
+    color: blanchedalmond;
     text-shadow: 0.5px 0.5px 10px black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.wrapper h3 {
+    margin-bottom: 40px;
+    padding:0.1em 0.2em;
+    border-radius: 5px;
+    text-decoration: underline overline;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
 .wrapper p {
     line-height: 30px;
+    font-weight: 400;
+    background-color: rgba(16, 21, 25, 0.683);
+    padding:0.1em 0.2em;
+    border-radius: 5px;
 }
 
 .wrapper h1 {
