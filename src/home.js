@@ -14,7 +14,7 @@ prepared in the style of traditional French cuisine.
 Indulge in the novel tastes of grasshoppers with a cosy, homey flavour.
 Let yourself be transported to the French countryside and "Hop in the Grass"!`
 
-const content = document.getElementById("content");
+const content = document.querySelector(".content");
 
 function removeChildren() {
     while(content.firstChild) {

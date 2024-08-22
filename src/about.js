@@ -35,7 +35,7 @@ function addStaff() {
 
 function addContactInfo() {
     const addr = document.createElement('address');
-    addr.id = "addr-wrap"
+    addr.classList.add('addr-wrap');
     content.appendChild(addr);
     for (let key in contact) {
         const addrItem = document.createElement('p');
