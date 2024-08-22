@@ -1,9 +1,7 @@
-import {content, h1} from "./home.js";
+import {content, h1, removeChildren} from "./home.js";
 
 export default function initMenu() {
-    while(content.firstChild) {
-        content.removeChild(content.firstChild)
-    }
+    removeChildren();
     h1.textContent = "Menu";
     content.appendChild(h1);
 }

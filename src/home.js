@@ -16,11 +16,18 @@ Let yourself be transported to the French countryside and "Hop in the Grass"!`
 
 const content = document.getElementById("content");
 
+function removeChildren() {
+    while(content.firstChild) {
+        content.removeChild(content.firstChild)
+    }
+}
+
 export default function initHome() {
+    removeChildren();
     content.appendChild(h1);
     content.appendChild(h3);
     content.appendChild(p);
     h1.textContent = 'Hop in the Grass';
 };
 
-export {content, h1};
+export {content, h1, removeChildren};
