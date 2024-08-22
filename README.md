@@ -8,6 +8,7 @@ The project is focused on the usage of ES6 modules for modular code and Webpack 
 - Employs modules for each tab, generating content dynamically with tab-switching logic.
 - Uses Webpack for bundling.
 
-## ToDO
+## ToDo
 - Refactor CSS. Lots of redundancy.
 - Make fully responsive between devices.
+- Deploy
