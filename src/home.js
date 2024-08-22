@@ -4,13 +4,13 @@ const div = document.createElement("div");
 div.classList.add("wrapper")
 
 const h1 = document.createElement("h1");
-h1.innerText = "Hop in the Grass";
+h1.textContent = "Hop in the Grass";
 
 const h3 = document.createElement("h3");
-h3.innerText = "A Michelin Star Restaurant";
+h3.textContent = "A Michelin Star Restaurant";
 
 const p = document.createElement("p");
-p.innerText =
+p.textContent =
 `"Hop in the Grass" is a restaurant with one Michelin star.
 We serve only the finest grasshoppers from exotic ends of the earth,
 prepared in the style of traditional French cuisine.
@@ -24,7 +24,7 @@ export default function initHome() {
     div.appendChild(h1);
     div.appendChild(h3);
     div.appendChild(p);
-    h1.textContent = "Hop in the Grass";
+    h1.textContent = 'Hop in the Grass';
 };
 
 export {div, h1, h3, content};

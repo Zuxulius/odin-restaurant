@@ -11,6 +11,4 @@ homeBtn.addEventListener('click', initHome);
 menuBtn.addEventListener('click', initMenu);
 aboutBtn.addEventListener('click', initAbout);
 
-
-
 initHome();

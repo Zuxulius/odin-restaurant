@@ -6,6 +6,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -17,6 +22,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .wrapper {
+        width: 60vw;
     }
 }
 
@@ -56,6 +64,7 @@ button:hover {
     border: 1px solid aliceblue;
     border-radius: 20px;
 }
+
 
 .wrapper p, h1, h3{
     margin: 20px;
