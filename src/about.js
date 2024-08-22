@@ -1,9 +1,9 @@
-import {content, div, h1, h3} from "./home.js";
+import {content, h1} from "./home.js";
 
 export default function initAbout() {
-    while(div.firstChild) {
-        div.removeChild(div.firstChild)
+    while(content.firstChild) {
+        content.removeChild(content.firstChild)
     }
-    div.appendChild(h1);
+    content.appendChild(h1);
     h1.textContent = "About Us";
 }
