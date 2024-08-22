@@ -116,3 +116,7 @@ button:hover {
     margin: 0;
     line-height: 5px;
 }
+
+.menu-item-wrapper {
+    display: flex;
+}

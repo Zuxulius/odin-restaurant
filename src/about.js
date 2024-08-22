@@ -13,7 +13,7 @@ const staff = [
         name: "Linguini",
         title: "Maître d'"
     }
-];
+]
 
 const contact = {
     name: "Hop in the Grass",
