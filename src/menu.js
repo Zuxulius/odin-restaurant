@@ -2,33 +2,35 @@ import {content, h1, removeChildren} from "./home.js";
 
 const menu = [
     {
-        name: "Lorem",
+        name: "1. Éclat de Sauterelle à la Provençale",
         price: "€ 76",
         desc:
-                `
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                `A delicate dish featuring crispy grasshoppers sautéed with fragrant garlic,
+                tomatoes, and herbes de Provence. Served over a bed of creamy polenta infused
+                with saffron and accompanied by a light drizzle of citrus-infused olive oil.
+                The dish is finished with a sprinkle of fleur de sel and microgreens for a touch of elegance.
                 `,
     },
     {
-        name: "Lorem",
+        name: "2. Ravioles de Sauterelles à la Truffe Noire",
         price: "€ 103",
         desc:
-                `
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                `Handmade ravioli filled with a luxurious mixture of ground grasshoppers,
+                ricotta, and wild mushrooms, delicately seasoned with truffle oil.
+                Served in a rich black truffle and cream sauce,
+                garnished with shaved truffles and a dusting of Parmesan cheese.
+                This dish is a celebration of earthy flavors and decadent textures.
                 `,
     },
     {
-        name: "Lorem",
+        name: "3. Tournedos de Sauterelle et Foie Gras",
         price: "€ 122",
         desc:
-                `
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                `A sublime combination of tender grasshopper filets and seared foie gras,
+                served atop a bed of velvety mashed potatoes enriched with butter and crème fraîche.
+                The dish is accompanied by a red wine and shallot reduction,
+                with a side of caramelized root vegetables. A true gastronomic indulgence,
+                blending the delicate flavors of grasshopper with the rich, buttery essence of foie gras.
                 `,
     },
 ]
