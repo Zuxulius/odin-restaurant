@@ -78,7 +78,7 @@ button:hover {
     line-height: 30px;
     font-weight: 400;
     background-color: rgba(16, 21, 25, 0.683);
-    padding:0.1em 0.2em;
+    padding: 10px;
     border-radius: 5px;
 }
 

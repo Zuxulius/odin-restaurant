@@ -19,9 +19,12 @@ Let yourself be transported to the French countryside and "Hop in the Grass"!`
 
 const content = document.getElementById("content");
 
-export default function init() {
+export default function initHome() {
     content.appendChild(div)
     div.appendChild(h1);
     div.appendChild(h3);
     div.appendChild(p);
+    h1.textContent = "Hop in the Grass";
 };
+
+export {div, h1, h3, content};
