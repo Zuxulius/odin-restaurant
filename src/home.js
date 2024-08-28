@@ -3,9 +3,6 @@ import homeImage from "../grasshoppers.jpg";
 const h1 = document.createElement("h1");
 h1.innerText = "Hop in the Grass";
 
-const h3 = document.createElement("h3");
-h3.innerText = "A Michelin Star Restaurant";
-
 const p = document.createElement("p");
 p.textContent =
 `Welcome to "Hop in the Grass," a Michelin-starred culinary experience like no other.
@@ -28,7 +25,6 @@ function removeChildren() {
 export default function initHome() {
     removeChildren();
     content.appendChild(h1);
-    content.appendChild(h3);
     content.appendChild(p);
     h1.textContent = 'Hop in the Grass';
 };
