@@ -5,7 +5,7 @@ h1.innerText = "Hop in the Grass";
 
 const p = document.createElement("p");
 p.textContent =
-`Welcome to "Hop in the Grass," a Michelin-starred culinary experience like no other.
+`Welcome to "Hop in the Grass", a Michelin-starred culinary experience like no other.
 
 At our esteemed restaurant, we take pride in serving only the finest grasshoppers, sourced from the most exotic corners of the globe. Each dish is meticulously crafted in the tradition of classic French cuisine, offering a unique and sophisticated twist on a truly novel ingredient.
 

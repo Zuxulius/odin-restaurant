@@ -9,27 +9,6 @@ body {
     padding-bottom: 30px;
 }
 
-.content {
-    width: auto;
-}
-
-@media screen and (min-width: 480px) {
-    body {
-        margin: 0;
-        background-image: url("../grasshoppers.jpg");
-        background-repeat: repeat;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 30px;
-    }
-    .content {
-        width: 60vw;
-    }
-    .content p {
-        max-width: 75%;
-    }
-}
 
 header {
     width: 100%;
@@ -63,7 +42,9 @@ button:hover {
     border: 0.1px solid blanchedalmond;
 }
 
+/* CONTENT */
 .content {
+    width: auto;
     margin-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -73,14 +54,19 @@ button:hover {
     backdrop-filter: invert(80%);
     border: 1px solid aliceblue;
     border-radius: 20px;
+    color: moccasin;
 }
 
 .content p, h1 {
     margin: 20px;
     text-align: center;
-    color: moccasin;
     text-shadow: 0.5px 0.5px 10px black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content h1 {
+    font-family: cursive;
+    font-size: 100px;
 }
 
 .content p {
@@ -89,36 +75,54 @@ button:hover {
     background-color: rgba(16, 21, 25, 0.683);
     padding: 10px;
     border-radius: 5px;
-    text-align: start;
     white-space: pre-line;
 }
 
-.content h1 {
-    font-family: cursive;
-    font-size: 100px;
+@media screen and (min-width: 480px) {
+    /* For regular screens (PC) */
+    .content {
+        width: 60vw;
+    }
+    .content p {
+        max-width: 75%;
+    }
 }
+/* CONTENT END */
 
-.addr-wrap {
-    background-color: rgba(255, 255, 255, 0);
-}
+/* ABOUT */
 .addr-wrap p {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+    text-align: start;
     margin: 0;
     line-height: 5px;
 }
 
+.staff-wrap {
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.staff-wrap h3 {
+    font-weight: bolder;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.431);
+    text-align: center;
+    border-radius: 50px;
+}
+/* ABOUT END */
+
+/* MENU */
 .menu-item-wrapper {
     padding: 20px;
-    text-align: start;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 95%;
-    color: moccasin;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 981px) {
     .menu-item-wrapper span {
+        /* Make room for name and price on *narrow* screens. */
         display: flex;
         flex-direction: column;
     }
@@ -127,15 +131,11 @@ button:hover {
 .menu-item-wrapper p {
     text-align: start;
     display: inline;
-    background-color: rgba(255, 255, 255, 0);
 }
 
 .menu-item-wrapper span p {
+    padding: 3px;
     font-weight: bolder;
     background-color: rgba(240, 248, 255, 0.431);
 }
-
-.menu-item-wrapper span + p {
-    background-color: rgba(16, 21, 25, 0.683);
-    width: fit-content;
-}
+/* MENU END */

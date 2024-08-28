@@ -25,12 +25,14 @@ const contact = {
 
 
 function addStaff() {
+    const staffWrap = document.createElement('div');
+    staffWrap.classList.add('staff-wrap')
     staff.forEach(function(member){
         const h3 = document.createElement('h3');
         h3.textContent = `${member.title}: ${member.name}`;
-        h3.style.textDecoration = 'underline';
-        content.appendChild(h3)
+        staffWrap.appendChild(h3);
     })
+    content.appendChild(staffWrap);
 }
 
 function addContactInfo() {
@@ -48,6 +50,6 @@ export default function initAbout() {
     removeChildren();
     content.appendChild(h1);
     h1.textContent = "About Us";
-    addStaff()
+    addStaff();
     addContactInfo();
 }
